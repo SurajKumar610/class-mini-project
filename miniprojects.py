@@ -3,8 +3,8 @@
 a = int(input("Enter starting point: "))
 b = int(input("Enter ending point: "))
 c = int(input("Enter updation: "))
-p = str(input("Enter v for vertical or h for horizontal: "))
-f = str(input("Enter f for foward and r for reverse: "))
+p = str(input("Enter V for vertical or H for horizontal: "))
+f = str(input("Enter F for foward or R for reverse: "))
 
 #print(p)
 # print(f)
@@ -25,4 +25,4 @@ elif(f == 'r' or f == 'R'):
         else:
             print("Invalid input.")
 else:
-    print("Enter valid itertions!!!!!")
+    print("Enter valid inputs!")
